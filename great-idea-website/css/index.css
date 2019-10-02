@@ -64,3 +64,111 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Viga&display=swap');
+
+/* HEADER */
+.wrapper {
+	max-width: 876px;
+	margin: 0 20px;
+}
+body {
+	width: 0 auto;
+}
+
+.header {
+	background-color: cornsilk;
+	width: 100%;
+	padding-bottom: 25px;
+}
+
+nav {
+	color: grey;
+	display: inline-block;
+	
+}
+
+nav a {
+	text-decoration: none;
+	padding: 1px 15px;
+	color: rgb(88, 87, 87);
+	margin-bottom: 50px;
+	font-size: 14px;
+}
+
+.logo {
+	padding-top: 25px;
+	padding-bottom: 0;
+	padding-left: 125px;
+}
+
+.intro {
+	margin-top: 25px;
+	/* width: 100%; */
+	
+}
+
+.hero-text {
+	width: 50%;
+	/* padding: 30px; */
+	text-align: center;
+	margin: 40px;
+}
+
+.hero-image {
+	/* width: 50%; */
+	margin: 25px 0 25px 80px;
+	
+	
+}
+
+h1 {
+	font-size: 48px;
+}
+
+p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+h3 {
+	font-family: 'Viga', sans-serif;
+	font-size: 22px;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.half-width {
+	display: inline-block;
+	width: 45%;
+	padding-bottom: 10px;
+	margin: 15px;
+}
+
+.third-width {
+	display: inline-block;
+	width: 30%;
+	margin: 5px;
+	padding: 15px 1px;
+}
+
+h6 {
+	font-size: 12px;
+	text-align: center;
+	margin: 20px;
+}
+
+footer {
+	padding-top: 15px;
+}
+
+footer p {
+	font-size: 14px;
+}
+
+span {
+	font-size: 12px;
+}
