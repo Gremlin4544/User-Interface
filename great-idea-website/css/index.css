@@ -70,11 +70,11 @@ h1, h2, h3, h4, h5 {
 /* HEADER */
 .wrapper {
 	max-width: 876px;
-	margin: 0 20px;
+	margin: 0 auto;
 }
-body {
+/* body {
 	width: 0 auto;
-}
+} */
 
 .header {
 	background-color: cornsilk;
@@ -84,7 +84,7 @@ body {
 
 nav {
 	color: grey;
-	display: inline-block;
+	display: block;
 	
 }
 
